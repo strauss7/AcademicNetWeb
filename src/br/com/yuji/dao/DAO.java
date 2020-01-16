@@ -8,8 +8,8 @@ public class DAO {
 	public Connection getConexao() {
 		Connection conexao = null;
 		String usuario = "postgres";
-		String senha = "teco01";
-		String nomeBancoDados = "bdacademicnet";
+		String senha = "";
+		String nomeBancoDados = "student";
 
 		try {
 			Class.forName("org.postgresql.Driver");
